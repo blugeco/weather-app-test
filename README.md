@@ -3,11 +3,10 @@ Weather App Test Project
 
 The Test Project is written to be run in Windows typing 
 
-mvn clean install
+mvn clean test
 
-under the "Weather-app-test" folder, or, from Eclipse, launching the TestRunner (under "src/test/java/stepdefs") as a JUnit test.
+The test assumes that the web server is up and running and the website can be reached at http://localhost:3000.
 
-The test assumes that the application url is http://localhost:3000 and is already up and running.
 
 The cucumber report are available under "target\cucumber-html-report\index.html".
 
@@ -37,4 +36,3 @@ Details on anything further that you would like to achieve given more time, incl
 
 - req02 - I would have like to spend a little more time to add checks on values given the available test data
 - req05 - at the moment, the "rounding" check is only implemented for minimum and maximum temperature.
-
