@@ -1,11 +1,16 @@
 Weather App Test Project
 
 
-The Test Project is written to be run in Windows typing 
+The tests can be launched from the command line.
 
 mvn clean test
 
-The test assumes that the web server is up and running and the website can be reached at http://localhost:3000.
+The project is set up to run the tests against Chrome browser in a Windows machine.
+
+Prerequisites:
+- web server is up and running
+- the website can be reached at http://localhost:3000.
+- Chrome browser is installed
 
 
 The cucumber report are available under "target\cucumber-html-report\index.html".
